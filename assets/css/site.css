@@ -1,0 +1,84 @@
+/*
+#FF6646
+#B6EBBD
+#1B416B
+#EDC494
+#4F280B
+*/
+
+/* * {
+  margin: 0;
+} */
+
+html {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #1B416B;
+}
+
+body {
+  margin: 0;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  line-height: 1.2;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  color: #313131;
+}
+
+body {
+  display: grid;
+  min-height: 100%;
+  grid-template-rows: 1fr auto;
+}
+
+img {
+  width: 100px;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+
+header {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+  border-bottom: 8px solid #1B416B;
+  background-color: #1B416B;
+  padding: 2%;
+  color: #B6EBBD;
+  font-family: monospace;
+  margin: 0;
+}
+
+main {
+  padding: 1rem;
+}
+
+footer {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  padding: 1rem;
+  border-top: 2px solid #FF6646;
+}
+
+code {
+  background-color: #1B416B;
+  color: #B6EBBD;
+  padding: 1%;
+  border: 1px solid #B6EBBD;
+  margin: 4%;
+}
+
+code::before {
+  content: '$ ';
+  color: #FF6646;
+}
+
+pre {
+  background-color: #3c3c3c;
+  color: white;
+  padding: 1%;
+  border: 1px solid #FF6646;
+  margin: 4%;
+}
